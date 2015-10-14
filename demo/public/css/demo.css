@@ -1,0 +1,19 @@
+/**
+ *
+ *
+ *
+ *
+ *
+ */
+.heading-project {
+    margin-top: 15px;
+}
+.heading-project h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+footer {
+    background-color: #F3F3F3;
+    padding: 20px 0;
+}
