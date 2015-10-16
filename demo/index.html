@@ -61,8 +61,8 @@
       </div>
         <div class="row">
             <h2>Basic example</h2>
-            <div id="slidekillr_basic">
-                <div class="sk_item_container">
+            <div id="slidekillr_basic" class="slidekillr">
+                <div class="sk_item_container active">
                     <div class="sk_item">
                         <img src="./public/img/new-york-city-336475_1920.jpg" />
                     </div>
@@ -112,5 +112,9 @@
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <!-- SlideKillr jQuery Plugin call -->
         <script src="./public/js/jquery.slidekillr.min.js"></script>
+        
+        <script>
+            $('#slidekillr_basic').SlideKillr();
+        </script>
     </body>
 </html>

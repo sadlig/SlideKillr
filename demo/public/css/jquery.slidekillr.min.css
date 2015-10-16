@@ -1,3 +1,22 @@
 img {
     max-width: 100%;
 }
+/*item container*/
+.slidekillr .sk_item_container {
+    display: none;
+}
+.slidekillr .sk_item_container.active {
+    display: block;
+}
+/*indicators*/
+.slidekillr .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+}
